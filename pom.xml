@@ -181,5 +181,13 @@
 
     </plugins>
   </build>
+<distributionManagement>
+    <repository>
+        <id>xen-083</id>
+        <name>xen-083-releases</name>
+        <url>http://localhost:8081/artifactory/libs-release-local</url>
+    </repository>
+</distributionManagement>
+
 
 </project>
